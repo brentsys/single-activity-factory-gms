@@ -41,4 +41,7 @@ dependencies {
 
     // add this for webview testing support
     androidTestImplementation 'com.android.support.test.espresso:espresso-web:3.0.2'
+    // Firbase
+    implementation 'com.google.firebase:firebase-core:16.0.1'
 }
+apply plugin: 'com.google.gms.google-services'
