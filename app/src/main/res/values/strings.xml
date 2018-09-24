@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Expresso First</string>
+    <string name="btn_send_broadcast_text">Send Broadcast</string>
+</resources>
