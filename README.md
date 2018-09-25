@@ -12,10 +12,6 @@ The test runs successfully.
 
 ### `buggy` branch
 
-> classpath 'com.google.gms:google-services:4.0.1'
-
-is added to Project build.gradle
-
 > apply plugin: 'com.google.gms.google-services'
 
 is added to moddule build.gradle
