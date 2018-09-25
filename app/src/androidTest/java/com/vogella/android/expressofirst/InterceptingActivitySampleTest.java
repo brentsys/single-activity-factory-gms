@@ -28,7 +28,7 @@ public class InterceptingActivitySampleTest {
     private Intent broadcastIntent;
     @Rule
     public ActivityTestRule<InterceptingActivity> activityTestRule =
-            new ActivityTestRule<InterceptingActivity>(getActivityFactory(), true, false);
+            new ActivityTestRule<InterceptingActivity>(getActivityFactory(), false, false);
     @Before
     public void setUp() throws Exception {
         broadcastIntent = null;
